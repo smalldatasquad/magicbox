@@ -11,3 +11,14 @@ make start
 sudo make install
 ```
 
+## Disable screen blanking
+
+edit `/etc/xdg/lxsession/LXDE/autostart`
+
+and add these lines:
+
+```
+@xset s noblank 
+@xset s off
+@xset -dpms
+```
