@@ -16,13 +16,13 @@ Optionally, install mosh: `sudo apt-get install mosh`
 
 #### Set hostname
 ```
-sudo echo "ppnyserver" > /etc/hostname
+sudo echo "magicbox" > /etc/hostname
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install avahi-daemon
 ```
 Edit `/etc/hosts` so there is a line:
-`127.0.0.1       localhost localhost.localdomain ppnyserver`
+`127.0.0.1       localhost localhost.localdomain magicbox`
 
 #### Set DNS servers
 ```
