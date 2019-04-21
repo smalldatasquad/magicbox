@@ -1,7 +1,7 @@
 # magicbox
 
 
-## Pi setup
+# Basic Pi setup
 
 
 #### Enable SSH
@@ -50,3 +50,7 @@ nvm use node
 - Setup pm2 startup script: Run `pm2 startup`, then run the resulting command
 - Run scripts with pm2 (for example, messybot): `pm2 start EXAMPLEAPP.js`
 - Save scripts for startup: `pm2 save`
+
+# Airplay (Shairport Sync setup)
+
+Follow these instructions: `https://github.com/mikebrady/shairport-sync/blob/master/INSTALL.md`
