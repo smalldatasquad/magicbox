@@ -2,7 +2,7 @@
 
 
 # Basic Pi setup
-
+https://www.1337x.to/
 
 #### Enable SSH
 
